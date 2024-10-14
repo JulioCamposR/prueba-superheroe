@@ -1,0 +1,57 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.header {
+    background-color: #343a40;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.card-img-top{
+    max-width: 40%;
+}
+
+.hero-image {
+    display: block;
+    margin: 20px auto;
+    max-width: 40%;
+    height: auto;
+}
+
+.header img {
+    height: 50px;
+    margin-right: 15px;
+}
+
+#heroInfo {
+    display: flex;
+    justify-content: center;
+}
+
+.hidden-content {
+    display: none;
+}
+
+#heroInfo .col-md-8 {
+    padding: 20px;
+}
+
+.card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+}
+
+.card-horizontal img {
+    width: 100%;
+    height: auto;
+    max-width: 200px;
+}
+
